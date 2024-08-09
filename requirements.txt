@@ -1,0 +1,5 @@
+qiskit
+numpy
+pandas
+tensorflow
+stable-baselines3
