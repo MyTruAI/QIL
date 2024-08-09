@@ -11,9 +11,9 @@ setup(
         'tensorflow',
         'stable-baselines3'
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Sean Finney',
+    author_email='Finn@MyInfinite.Spcae',
     description='A hybrid quantum-classical language and framework',
-    url='https://github.com/yourusername/QIL',
+    url='https://github.com/MyTruAI/QIL',
     license='MIT'
 )
