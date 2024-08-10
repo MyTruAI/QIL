@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Q-Auth: Quantum Bio-Authentication</h1>
-    <form id="auth-form">
-        <label for="biometric_data">Enter Biometric Data:</label>
-        <input type="text" id="biometric_data" name="biometric_data" required>
-        <button type="submit">Authenticate</button>
-    </form>
-    <div id="result"></div>
+    <div class="container">
+        <h1>Q-Auth: Quantum Bio-Authentication</h1>
+        <form id="auth-form">
+            <div class="input-group">
+                <label for="biometric_data">Enter Biometric Data:</label>
+                <input type="text" id="biometric_data" name="biometric_data" required>
+            </div>
+            <button type="submit">Authenticate</button>
+        </form>
+        <div id="result"></div>
+    </div>
 
     <script>
         document.getElementById('auth-form').addEventListener('submit', function(event) {
@@ -31,7 +35,7 @@
                 if (data.authenticated) {
                     resultDiv.innerHTML = "<p class='success'>Authentication Successful!</p>";
                 } else {
-                    resultDiv.innerHTML = "<p class='error'>Authentication Failed!</p>";
+                    resultDiv.innerHTML = "<p class='error'>Authentication Failed! " + (data.error ? data.error : '') + "</p>";
                 }
                 console.log(data.result); // Log the quantum results
             })
