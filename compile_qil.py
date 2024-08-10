@@ -1,4 +1,5 @@
-from qiskit import QuantumCircuit, Aer, transpile, execute
+from qiskit import QuantumCircuit, transpile, execute
+from qiskit_aer import Aer
 from qiskit.visualization import plot_histogram
 
 def compile_and_execute_qil(qil_code):
