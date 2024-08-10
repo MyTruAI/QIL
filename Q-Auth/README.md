@@ -2,6 +2,8 @@
 
 Q-Auth is a quantum-powered bio-authentication system that integrates biometric data with quantum information processing to create a highly secure authentication method. 
 
+## Note: This is a basic version of the Q-Auth app. We are devolping a fully fucntional application for both IOS and Andriod that is currently close sourced. If interested in our work please contact us @ Finn@myinfinite.spcae
+
 ## Features
 
 - **Biometric Input**: Supports fingerprint scanning and facial recognition.
@@ -41,3 +43,4 @@ Q-Auth is a quantum-powered bio-authentication system that integrates biometric 
 
 - **Hardware Integration**: Replace simulated biometric input with actual fingerprint and facial recognition hardware.
 - **Enhanced Security**: Implement additional security measures such as multi-factor authentication.
+
